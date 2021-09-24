@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tic-Tac-Toe
 
-## Getting Started
+This is a simple web application that lets the user(s) play a game of tic-tac-toe.
 
-First, run the development server:
+## Technologies Used:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- Next.js
+- TypeScript
+- TailwindCSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to install:
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository using `git clone`
+2. Install the node modules using `npm install`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## How to run the program:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. First, build the program using `npm run build`
+2. Then, run the program using `npm run start`
+3. If in development, run the program using `npm run dev`
 
-## Learn More
+## Project Structure:
 
-To learn more about Next.js, take a look at the following resources:
+- /components - Reusable pieces of code that could be added to the pages.
+- /pages - The pages in the website. Automatic routing: index.tsx = /.
+- /pages/api - An optional back-end for Next.js. A separate Node.js server is not needed for simple REST API Requests.
+- /public - Directory for image files and icons
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Notes:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+There is a lot of room for improvement and additional features that could be added to this application. Things like an undo button, customizable player names, scoring system, and overall improvement in UI design. However, I think that a simple solution that accomplishes the tasks specified is best for tasks with short deadlines. If the users still find this lacking, I am very willing to add improvements in the future.
