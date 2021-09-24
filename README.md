@@ -11,7 +11,8 @@ This is a simple web application that lets the user(s) play a game of tic-tac-to
 ## How to install:
 
 1. Clone the repository using `git clone https://github.com/jfvalerio/tictactoe.git`
-2. Install the node modules using `npm install`
+2. Go to the directory using `cd tictactoe`
+3. Install the node modules using `npm install`
 
 ## How to run the program:
 
