@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-This is a simple web application that lets the user(s) play a game of tic-tac-toe. This project was developed in Ubuntu using Windows Subsystem for Linux.
+This is a simple web application that lets the user(s) play a game of tic-tac-toe. This project was developed in Ubuntu using Windows Subsystem for Linux (node v16.8.0 and npm 7.22.0).
 
 ## Technologies Used:
 
@@ -20,7 +20,8 @@ This is a simple web application that lets the user(s) play a game of tic-tac-to
 2. If you want to skip the server, you can check components/Boards.tsx and use the block of code for the optional Next.js back-end functionality
 3. Build the program using `npm run build`
 4. Run the program using `npm run start`
-5. If in development, run the program using `npm run dev`
+5. If in development, skip the building and run the program using `npm run dev`
+6. Visit http://localhost:3000 to view the application
 
 ## Project Structure:
 
